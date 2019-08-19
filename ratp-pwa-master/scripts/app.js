@@ -8,7 +8,8 @@
         spinner: document.querySelector('.loader'),
         cardTemplate: document.querySelector('.cardTemplate'),
         container: document.querySelector('.main'),
-        addDialog: document.querySelector('.dialog-container')
+        addDialog: document.querySelector('.dialog-container'),
+		indexedDBName: "SchedulesDB"
     };
 
 

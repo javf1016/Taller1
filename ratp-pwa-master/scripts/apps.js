@@ -86,9 +86,6 @@ function renderForecast(card, data) {
 if (lastUpdated >= data.currently.time) {
   return;
 }
-  if (lastUpdated >= data.currently.time) {
-    return;
-  }
   cardLastUpdatedElem.textContent = data.currently.time;
 
   // Render the forecast data into the card.
